@@ -2,7 +2,7 @@
 
        include_once('conn.php');
         session_start();
-        echo "hello";
+        // echo "hello";
         if (!isset($_SESSION['admin'])){
             header('Location:login.php');
             return;
